@@ -1,0 +1,143 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+    background-color: #F6F0EB;
+    font-family: "Poppins", sans-serif;
+    color: #492118;
+}
+a{
+    text-decoration-line: none;
+    color: inherit;
+}
+header{
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 24px 52px;
+}
+nav{
+    display: flex;
+    gap: 60px;
+}
+nav a {
+    font-size: 22px;
+    font-weight: 700;
+}
+img{
+   width: 100%; 
+}
+.img-container{
+    max-width: 1500px;
+    margin: 0 auto;
+}
+.hero-section{
+    margin-top: 100px;
+}
+main {
+    padding: 0 26px;
+}
+.hero-section p {
+    color: #492118;
+    font-size: 24px;
+    text-align: center;
+}
+.section{
+    margin-top: 130px;
+}
+.section .img-container{
+    max-width: 1290px;
+}
+.section h2 {
+    font-size: 48px;
+    font-weight: 700;
+    color: #492118;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.go-to-top {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    background-color: burlywood;
+    color: #fff;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    font-size: 14px;
+    float: right;
+}
+.para p {
+    margin-top: 20px;
+    text-align: center;
+}
+@media (max-width: 1600px) {
+    .img-container{
+        max-width: 1290px;
+    }
+    .section .img-container{
+        max-width: 1150px;
+    }
+}
+@media (max-width: 1320px) {
+    .img-container{
+        max-width: 1090px;
+    }
+    .section .img-container{
+        max-width: 950px;
+    }
+    nav a {
+        font-size: 16px;
+    }
+    nav{
+        gap: 36px;
+    }
+}
+@media (max-width: 1100px) {
+    .img-container{
+        max-width: 900px;
+    }
+    .section .img-container{
+        max-width: 850px;
+    }
+    nav a {
+        font-size: 14px;
+    }
+    nav{
+        gap: 24px;
+    }
+    .hero-section{
+        margin-top: 32px;
+    }
+    .section{
+        margin-top: 42px;
+    }
+    .hero-section p {
+        font-size: 12px;
+    }
+    .section h2 {
+        font-size: 18px;
+    }
+}
+@media (max-width: 860px) {
+    header{
+        background-color: #f6f0ebc2;
+        position: sticky;
+        backdrop-filter: blur(8px);
+        top: 0;
+    }
+    nav{
+       position: absolute;
+       background: rgba(255, 255, 255, 0.9);
+       flex-direction: column;
+       padding: 24px;
+       right: 0;
+       top: 0;
+    }
+    nav a + a {
+        margin: 0;
+        margin-top: 1px;
+    }
+}
