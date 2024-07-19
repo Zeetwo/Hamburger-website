@@ -63,8 +63,8 @@ main {
     align-items: center;
     background-color: burlywood;
     color: #fff;
-    width: 100px;
-    height: 100px;
+    width:60px;
+    height: 60px;
     border-radius: 50%;
     font-size: 14px;
     float: right;
@@ -139,5 +139,9 @@ main {
     nav a + a {
         margin: 0;
         margin-top: 1px;
+    }
+    .go-to-top {
+        width: 50px;
+        height: 50px;
     }
 }
